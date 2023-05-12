@@ -46,8 +46,8 @@ jobs:
         run: |
           pytest 
       
-      - name: Check if work is done correctly in Week 7
-        working-directory: week_ (7)/boilerplate-medical-data-visualizer-main
+      - name: Check if work is done correctly in Week 6
+        working-directory: week_ (6)/boilerplate-medical-data-visualizer-main
         run: |
           pytest 
 
