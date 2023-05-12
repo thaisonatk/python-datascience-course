@@ -44,18 +44,13 @@ jobs:
       - name: Check if work is done correctly in Week 5 (Part 2)
         working-directory: week_ (5)/boilerplate-demographic-data-analyzer-main
         run: |
-<<<<<<< HEAD
           pytest
-          
-=======
-          pytest 
       
       - name: Check if work is done correctly in Week 6
         working-directory: week_ (6)/boilerplate-medical-data-visualizer-main
         run: |
           pytest 
 
->>>>>>> 525d56702a5550e7e07345bed05263e073c0727f
       # - name: PR comment with reactions
       #   uses: thollander/actions-comment-pull-request@v2
       #   env:
